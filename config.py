@@ -8,7 +8,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "8259434956:AAFVnDxlamm8A_H6mEXfoXCS8OnW
 
 PASS_DB = int(os.environ.get("PASS_DB", "720"))
 
-#OWNER = int(os.environ.get("OWNER", "7547625729"))
+OWNER = int(os.environ.get("OWNER", "7547625729"))
 
 #LOG = ,
 
@@ -16,10 +16,10 @@ PASS_DB = int(os.environ.get("PASS_DB", "720"))
 
 # auth_chats = []
 
-#try:
-    #ADMINS=[7547625729]
-    #for x in (os.environ.get("ADMINS", "7547625729").split()):
+try:
+    ADMINS=[7547625729]
+    for x in (os.environ.get("ADMINS", "7547625729").split()):
         #ADMINS.append(int(x))
-#except ValueError:
-        #raise Exception("Your Admins list does not contain valid integers.")
-#ADMINS.append(OWNER)
+except ValueError:
+        raise Exception("Your Admins list does not contain valid integers.")
+ADMINS.append(OWNER)
