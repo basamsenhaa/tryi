@@ -1,5 +1,5 @@
 {
-    "name": "𝐓𝐞𝐱𝐭 Uploader 𝐃𝐈𝐋𝐉𝐀𝐋𝐄  ™",
+    "name": "𝐓𝐞𝐱𝐭 Uploader  ™",
     "description": "Download videos from various websites using this telegram bot",
     "logo": "https://envs.sh/srE.jpg",
     "keywords": [
@@ -7,16 +7,16 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/hackercoder24/updatetxt2vid",
-    "success_url": "https://telegram.me/diljalechatsherebot",
+    "repository": "",
+    "success_url": "",
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "25149550",
+            "description": "25058583",
             "required": true
         },
         "API_HASH": {
-            "description": "67b06e7a112cb9b9a5365c5f4fce2495",
+            "description": "8caa296e93bfd29cacd9d83b242979cc",
             "required": true
         },
         "BOT_TOKEN": {
@@ -27,13 +27,13 @@
     "addons": [],
     "buildpacks": [
         {
-            "url": "https://github.com/amivin/aria2-heroku.git"
+            "url": ""
         },
         {
             "url": "heroku/python"
         },       
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+            "url": "https://github.com/jonathan"
         }
     ]
     }
