@@ -16,10 +16,10 @@ OWNER = int(os.environ.get("OWNER", "7547625729"))
 
 # auth_chats = []
 
-try:
-    ADMINS=[7547625729]
-    for x in (os.environ.get("ADMINS", "7547625729").split()):
+#try:
+   # ADMINS=[7547625729]
+    #for x in (os.environ.get("ADMINS", "7547625729").split()):
         #ADMINS.append(int(x))
-except ValueError:
-        raise Exception("Your Admins list does not contain valid integers.")
-ADMINS.append(OWNER)
+#except ValueError:
+      #  raise Exception("Your Admins list does not contain valid integers.")
+#ADMINS.append(OWNER)
